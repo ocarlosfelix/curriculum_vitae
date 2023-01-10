@@ -1,0 +1,88 @@
+/* sets and imports */
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;800&display=swap");
+
+/* Header Styles */
+.main {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  background-color: #0d1117;
+}
+
+.header {
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+  background-color: #161b22;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  top: 0;
+  width: 100vw;
+  box-shadow: 2px 2px 2px 1px rgba(255, 0, 0, 0.2);
+}
+
+.contact_info {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact_info_text {
+  color: antiquewhite;
+  font-size: 1em;
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+}
+
+.namebox {
+  display: flex;
+}
+
+.name {
+  color: antiquewhite;
+  font-size: 2em;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+}
+
+.github_link_box {
+  color: antiquewhite;
+}
+
+.github_link_img {
+  width: 5vh;
+}
+
+/* Session Styles */
+hr.rounded {
+  border-top: 0.3vh solid #bbb;
+  border-radius: 5px;
+}
+
+ul li {
+  margin: 5px;
+  margin-left: 50px;
+  list-style-type: square;
+}
+
+.info_box {
+  margin-top: 2vh;
+  margin-bottom: 1vh;
+  margin-left: 2vw;
+}
+
+.info_box_title {
+  color: antiquewhite;
+  font-size: 2em;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  margin-top: 2vh;
+  margin-bottom: 1vh;
+}
+
+.info_box_description {
+  color: antiquewhite;
+  font-size: 0.8em;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+}
