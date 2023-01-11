@@ -1,0 +1,67 @@
+[
+  {
+    "nome_curso": "CSS: Dispondo elementos com Flexbox e Grid",
+    "instituicao": "Alura",
+    "link_certificado": "https://cursos.alura.com.br/user/carlos-lima-felix/course/css-dispondo-elementos-flexbox-grid/certificate"
+  },
+  {
+    "nome_curso": "Guia de estilos: montando páginas com componentes",
+    "instituicao": "Alura",
+    "link_certificado": "https://cursos.alura.com.br/user/carlos-lima-felix/course/guia-estilos-paginas-componentes/certificate"
+  },
+  {
+    "nome_curso": "Formação HTML e CSS",
+    "instituicao": "Alura",
+    "link_certificado": "https://cursos.alura.com.br/degree/certificate/52fc9fe9-393c-48d2-a94d-e018112bbf24"
+  },
+  {
+    "nome_curso": "Javascript: explorando a linguagem",
+    "instituicao": "Alura",
+    "link_certificado": "https://cursos.alura.com.br/certificate/9812d542-f6cb-42e3-a6a4-186b0b0d4c49"
+  },
+  {
+    "nome_curso": "Layouts Responsivos: trabalhando com layouts mobile",
+    "instituicao": "Alura",
+    "link_certificado": "https://cursos.alura.com.br/certificate/a30b559a-e0d7-48dd-80e1-4e98b53417d5"
+  },
+  {
+    "nome_curso": "Python: começando com a linguagem",
+    "instituicao": "Alura",
+    "link_certificado": "https://cursos.alura.com.br/certificate/2bce00c1-112e-45cf-97f8-c58718553cf0"
+  },
+  {
+    "nome_curso": "Python: avançando na linguagem",
+    "instituicao": "Alura",
+    "link_certificado": "https://cursos.alura.com.br/certificate/77ad1760-9196-4d50-a06d-1f70225e8019"
+  },
+  {
+    "nome_curso": "Python: endendendo a Orientação a objetos",
+    "instituicao": "Alura",
+    "link_certificado": "https://cursos.alura.com.br/certificate/25f43b10-803b-4342-a8ff-e7a56a9391d5"
+  },
+  {
+    "nome_curso": "Python: Avançando na orientação a objetos",
+    "instituicao": "Alura",
+    "link_certificado": "https://cursos.alura.com.br/certificate/ce7a42f9-2acb-4b5e-a6b0-6afce58de6c7"
+  },
+  {
+    "nome_curso": "React Native: Criando um app",
+    "instituicao": "Alura",
+    "link_certificado": "https://cursos.alura.com.br/certificate/21e722ff-666c-4d7a-960e-c1f8b9c22d3a"
+  },
+  {
+    "nome_curso": "React Native: Criando menu e navegando entre telas",
+    "instituicao": "Alura",
+    "link_certificado": "https://cursos.alura.com.br/certificate/605becfe-1485-4001-8f25-6e365ebdfad7"
+  },
+  {
+    "nome_curso": "React Native: Utilizando e criando Hooks",
+    "instituicao": "Alura",
+    "link_certificado": "https://cursos.alura.com.br/certificate/8b098c67-996b-4984-8034-fbb1fab5d701"
+  },
+  {
+    "nome_curso": "React Native com Expo: Navegação com menu e suporte às telas",
+    "instituicao": "Alura",
+    "link_certificado": "https://cursos.alura.com.br/certificate/16429aac-7b39-4357-b9a0-58fe3f2d9f97"
+  }
+]
