@@ -5,11 +5,6 @@
     "link_certificado": "https://cursos.alura.com.br/user/carlos-lima-felix/course/css-dispondo-elementos-flexbox-grid/certificate"
   },
   {
-    "nome_curso": "Guia de estilos: montando páginas com componentes",
-    "instituicao": "Alura",
-    "link_certificado": "https://cursos.alura.com.br/user/carlos-lima-felix/course/guia-estilos-paginas-componentes/certificate"
-  },
-  {
     "nome_curso": "Formação HTML e CSS",
     "instituicao": "Alura",
     "link_certificado": "https://cursos.alura.com.br/degree/certificate/52fc9fe9-393c-48d2-a94d-e018112bbf24"
@@ -35,7 +30,7 @@
     "link_certificado": "https://cursos.alura.com.br/certificate/77ad1760-9196-4d50-a06d-1f70225e8019"
   },
   {
-    "nome_curso": "Python: endendendo a Orientação a objetos",
+    "nome_curso": "Python: Entendendo a orientação a objetos",
     "instituicao": "Alura",
     "link_certificado": "https://cursos.alura.com.br/certificate/25f43b10-803b-4342-a8ff-e7a56a9391d5"
   },
@@ -63,5 +58,10 @@
     "nome_curso": "React Native com Expo: Navegação com menu e suporte às telas",
     "instituicao": "Alura",
     "link_certificado": "https://cursos.alura.com.br/certificate/16429aac-7b39-4357-b9a0-58fe3f2d9f97"
+  },
+  {
+    "nome_curso": "Guia de estilos: montando páginas com componentes",
+    "instituicao": "Alura",
+    "link_certificado": "https://cursos.alura.com.br/user/carlos-lima-felix/course/guia-estilos-paginas-componentes/certificate"
   }
 ]
