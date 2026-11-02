@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
-      content="Carlos Henrique de Lima Félix — senior full-stack engineer. Product platforms for education and retail, from Curitiba, open to remote."
+      content="Carlos Henrique de Lima Félix — senior full-stack engineer. K-12 assessment support, industrial simulation training, and a shop operating system. Curitiba, open to remote."
     />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -71,17 +71,18 @@
         </div>
         <div class="info_box_description">
           <p class="headline">
-            I take a product from the messy operational version to software
-            people can run every day.
+            I ship software a teacher, a field engineer, or a shop counter can
+            run every day.
           </p>
           <p>
-            For the last year I have been a primary engineer on Eddo Learning’s
-            assessment workspace, working with the product manager on
-            teacher-facing flows, backoffice, and AI-assisted feedback. In
-            parallel I built Limpei, the operating system for a retail and
-            service shop: catalog, checkout, inventory, finance, and fiscal
-            notes. I work in TypeScript and React, and I am comfortable owning
-            the data model and the UX in the same change.
+            For the last year I have been a primary engineer on a platform that
+            helps K-12 teachers through an assessment cycle, using generated
+            insights instead of another spreadsheet. Alongside that I built
+            the training experience for an industrial simulation, where field
+            engineers practice safety procedures in hard situations, and the
+            operating system for a retail and repair shop. I work with the
+            product manager, stay close to the person using it, and change the
+            design when the first version is not the one they need.
           </p>
         </div>
       </section>
@@ -101,9 +102,7 @@
               product in 2 weeks!”
             </p>
           </blockquote>
-          <p class="attribution">
-            Ray, Product Manager at Eddo Learning
-          </p>
+          <p class="attribution">Ray, Product Manager at Eddo Learning</p>
         </div>
       </aside>
 
@@ -115,16 +114,19 @@
           <ul class="skill-groups">
             <li>
               <strong>Product engineering.</strong>
-              TypeScript, React, Next.js, Node APIs, Python
+              Take a workflow people already do and ship the version they can
+              run without a specialist in the room.
             </li>
             <li>
-              <strong>Data and integrations.</strong>
-              PostgreSQL, Prisma, Google Forms and Drive, fiscal APIs (NFC-e)
+              <strong>Systems.</strong>
+              Own the data and the screen in the same change. Multi-team
+              products, outside data coming in, tests on the real path.
             </li>
             <li>
               <strong>How I work.</strong>
-              Multi-tenant systems, AI-assisted workflows, unit and end-to-end
-              tests, close collaboration with product
+              Practical solutions with the people around the problem. Open to
+              a different approach when the user is stuck and the code is not
+              the point.
             </li>
           </ul>
         </div>
@@ -139,68 +141,102 @@
         </div>
         <div class="info_box_description">
           <article class="engagement">
-            <h3>Eddo Learning</h3>
+            <h3>K-12 assessment platform for teachers</h3>
             <p class="role-line">
-              Full-stack engineer · Remote · Aug 2025–present
+              Full-stack engineer · Eddo Learning · Aug 2025–present
             </p>
             <p class="product-blurb">
-              Multi-tenant workspace where K-12 teachers run assessments and
-              districts manage curriculum, with AI-generated feedback and
-              student data kept inside the tenant.
+              Helps teachers through an assessment cycle and gives them
+              generated insights they can act on, while each school’s student
+              work stays with that school.
             </p>
             <ul>
               <li>
-                Built backoffice browse and editing for assessments, templates,
-                tenants, and users, with search and filters tied to the real
-                fields instead of a generic table.
+                Delivered the first usable version of the core product in two
+                weeks with the product manager.
               </li>
               <li>
-                Shipped the teacher path around Google Forms: question display,
-                hidden name prompts, answer refresh in one transaction, and AI
-                feedback regenerated when a submission has none.
+                Gave school staff one place to find and update assessments,
+                lesson templates, organizations, and people, with search that
+                matches how they actually look things up.
               </li>
               <li>
-                Worked through curriculum ingestion for OpenSciEd, the Prisma
-                models behind assessments, and the unit and Playwright tests
-                that cover those flows.
+                Let teachers collect student work in a form their class already
+                uses, refresh those answers in one step, and still get written
+                feedback when a submission comes back empty.
+              </li>
+              <li>
+                Turned a middle-school science curriculum the schools already
+                teach into a library, so a new assessment starts from the
+                lesson instead of a blank page.
               </li>
             </ul>
             <p class="tech-line">
-              <strong>Tech:</strong> Next.js, TypeScript, React, Prisma,
-              PostgreSQL, Google Forms/Drive, Playwright
+              <strong>Tech:</strong> TypeScript, React, Next.js, PostgreSQL,
+              Google Forms, automated tests
+            </p>
+          </article>
+
+          <article class="engagement">
+            <h3>Industrial simulation training platform</h3>
+            <p class="role-line">
+              Full-stack engineer · Eddo Learning · Nov 2025–Apr 2026
+            </p>
+            <p class="product-blurb">
+              Trains field engineers on safety procedures in hard situations,
+              including bringing an industrial pump back into service after a
+              long shutdown.
+            </p>
+            <ul>
+              <li>
+                Designed a modular setup that takes scenario data from an
+                outside system, so later drill variations can be added without
+                rebuilding the training experience.
+              </li>
+              <li>
+                Built the simulation in pieces that read a scenario file, so
+                the same experience can run different combinations of steps,
+                people, and what the learner sees.
+              </li>
+              <li>
+                Scored a practice session from the whole conversation, so a
+                learner is judged on the procedure they followed, not on a
+                single line.
+              </li>
+            </ul>
+            <p class="tech-line">
+              <strong>Tech:</strong> TypeScript, React, Python, scenario files,
+              Unity
             </p>
           </article>
 
           <article class="engagement">
             <h3>Limpei</h3>
-            <p class="role-line">
-              Full-stack engineer · Aug 2026–present
-            </p>
+            <p class="role-line">Full-stack engineer · Aug 2026–present</p>
             <p class="product-blurb">
-              Storefront and back office for a cleaning-products shop: catalog,
-              point of sale, inventory, purchasing, finance, field service, and
-              electronic invoices.
+              The operating system for a cleaning-products shop: what is for
+              sale, the register, stock, purchasing, bills, repairs, and the
+              official receipt.
             </p>
             <ul>
               <li>
-                Built the system from the first commit: public catalog, admin
-                auth, and the day-to-day screens for products, customers,
-                sales, and payables.
+                Replaced the shop’s day-to-day paperwork with one system, from
+                the public catalog through checkout, stock, and what the shop
+                owes.
               </li>
               <li>
-                Shaped service attendance around the counter: entry and exit
-                dates, refusing a pickup with a reason, closing payments, and
-                printable orders.
+                Let the counter follow a repair from drop-off to pickup,
+                including a refused pickup and a closed payment, and print the
+                order for the customer.
               </li>
               <li>
-                Integrated Focus NFe so a sale can issue an NFC-e and receive
-                the provider webhook, and led product entry with barcode and
-                NCM suggestions.
+                A completed sale can issue the official electronic receipt and
+                update itself when the tax service responds.
               </li>
             </ul>
             <p class="tech-line">
-              <strong>Tech:</strong> Next.js, TypeScript, Prisma, PostgreSQL,
-              Auth.js, Vitest, Focus NFe
+              <strong>Tech:</strong> TypeScript, React, Next.js, PostgreSQL,
+              electronic invoicing
             </p>
           </article>
 
@@ -208,9 +244,7 @@
             <h3>Earlier</h3>
             <p class="role-line">2022–2023</p>
             <ul>
-              <li>
-                Communications coordinator at AD Media Group (2022).
-              </li>
+              <li>Communications coordinator at AD Media Group (2022).</li>
               <li>
                 Public sites and a small hardware prototype, still on GitHub:
                 studio and company websites, a production-fee calculator, and
@@ -232,22 +266,25 @@
           <blockquote class="recommendation-letter">
             <p>
               I highly recommend Carlos if you’re looking for an experienced
-              full stack engineer. Carlos is a resourceful problem solver who’s
-              focused on finding practical solutions by applying his full stack
-              knowledge and collaborating with his peers. He is great to work
-              with, open to learning and exploring different approaches to
-              tackle the problem, which helped him deliver the MVP of our core
-              product in 2 weeks! One of his super powers is his ability to
-              empathize with users and understand their challenges, and not
-              being overly attached to his code. His resulting code often
-              includes delightful and thoughtful elements that were not
-              previously discussed but were a great addition to the user
-              experience.
+              full stack engineer.
+            </p>
+            <p>
+              Carlos is a resourceful problem solver who’s focused on finding
+              practical solutions by applying his full stack knowledge and
+              collaborating with his peers. He is great to work with, open to
+              learning and exploring different approaches to tackle the
+              problem, which helped him deliver the MVP of our core product in
+              2 weeks!
+            </p>
+            <p>
+              One of his super powers is his ability to empathize with users
+              and understand their challenges, and not being overly attached to
+              his code. His resulting code often includes delightful and
+              thoughtful elements that were not previously discussed but were a
+              great addition to the user experience.
             </p>
           </blockquote>
-          <p class="attribution">
-            Ray · Product Manager, Eddo Learning
-          </p>
+          <p class="attribution">Ray · Product Manager, Eddo Learning</p>
         </div>
       </section>
 
