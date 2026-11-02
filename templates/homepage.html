@@ -5,12 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
-      content="Carlos Felix — senior full-stack engineer building product platforms and AI-assisted systems. Outcome-focused portfolio for US recruiters."
+      content="Carlos Henrique de Lima Félix — senior full-stack engineer. Product platforms for education and retail, from Curitiba, open to remote."
     />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;800&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,560&family=Source+Sans+3:ital,wght@0,400;0,600;1,400&display=swap"
       rel="stylesheet"
     />
     <link
@@ -21,59 +21,46 @@
       rel="stylesheet"
       href="{{ url_for('static', filename='styles.css') }}"
     />
-    <title>Carlos Felix — Senior Full-Stack Engineer</title>
+    <title>Carlos Félix — Senior Full-Stack Engineer</title>
   </head>
 
   <body class="body">
     <div class="main">
       <header class="header">
         <div class="header_box">
+          <div class="name_box">
+            <p class="eyebrow">Senior full-stack engineer</p>
+            <h1 class="name">Carlos Henrique de Lima Félix</h1>
+          </div>
+
           <div class="contact_info_box">
             <a
               href="mailto:carlos.lima.felix+cv@gmail.com"
               class="email_link"
               aria-label="Email"
+              >carlos.lima.felix@gmail.com</a
             >
-              <span class="contact_info_text"
-                >carlos.lima.felix@gmail.com</span
-              >
-            </a>
             <p class="contact_info_text location_text">
-              Curitiba, Brazil · Remote / US-friendly
+              Curitiba, Brazil · Remote
             </p>
-          </div>
-
-          <div class="name_box">
-            <h1 class="name">Carlos Felix</h1>
-          </div>
-
-          <div class="link_box">
-            <a
-              href="https://github.com/ocarlosfelix"
-              class="github_link"
-              aria-label="GitHub"
-              rel="noopener noreferrer"
-              target="_blank"
-            >
-              <img
-                class="link_img"
-                src="{{ url_for('static', filename='github.png') }}"
-                alt=""
-              />
-            </a>
-            <a
-              href="https://linkedin.com/in/ocarlosfelix/"
-              class="linkedin_link"
-              aria-label="LinkedIn"
-              rel="noopener noreferrer"
-              target="_blank"
-            >
-              <img
-                class="link_img"
-                src="{{ url_for('static', filename='linkedin.png') }}"
-                alt=""
-              />
-            </a>
+            <div class="link_box">
+              <a
+                href="https://github.com/ocarlosfelix"
+                class="github_link"
+                aria-label="GitHub"
+                rel="noopener noreferrer"
+                target="_blank"
+                >GitHub</a
+              >
+              <a
+                href="https://linkedin.com/in/ocarlosfelix/"
+                class="linkedin_link"
+                aria-label="LinkedIn"
+                rel="noopener noreferrer"
+                target="_blank"
+                >LinkedIn</a
+              >
+            </div>
           </div>
         </div>
       </header>
@@ -84,18 +71,20 @@
         </div>
         <div class="info_box_description">
           <p class="headline">
-            Senior full-stack engineer — product platforms &amp; AI-assisted
-            systems
+            I take a product from the messy operational version to software
+            people can run every day.
           </p>
           <p>
-            I design and ship full-stack product experiences end to end —
-            modular architectures, thoughtful UX, and practical AI-assisted
-            workflows — in close collaboration with product partners.
+            For the last year I have been a primary engineer on Eddo Learning’s
+            assessment workspace, working with the product manager on
+            teacher-facing flows, backoffice, and AI-assisted feedback. In
+            parallel I built Limpei, the operating system for a retail and
+            service shop: catalog, checkout, inventory, finance, and fiscal
+            notes. I work in TypeScript and React, and I am comfortable owning
+            the data model and the UX in the same change.
           </p>
         </div>
       </section>
-
-      <hr class="rounded" />
 
       <aside
         class="recommendation-quote info_box"
@@ -113,28 +102,33 @@
             </p>
           </blockquote>
           <p class="attribution">
-            — Ray, Product Manager at Eddo Learning (now CEO of the Eddo
-            spinoff)
+            Ray, Product Manager at Eddo Learning
           </p>
         </div>
       </aside>
-
-      <hr class="rounded" />
 
       <section class="skills info_box" aria-labelledby="skills-heading">
         <div class="info_box_title">
           <h2 id="skills-heading">Skills</h2>
         </div>
         <div class="info_box_description">
-          <p>
-            Full-stack product engineering · APIs &amp; modular architecture ·
-            React / TypeScript · Python · AI-assisted product workflows ·
-            UX empathy &amp; cross-functional collaboration
-          </p>
+          <ul class="skill-groups">
+            <li>
+              <strong>Product engineering.</strong>
+              TypeScript, React, Next.js, Node APIs, Python
+            </li>
+            <li>
+              <strong>Data and integrations.</strong>
+              PostgreSQL, Prisma, Google Forms and Drive, fiscal APIs (NFC-e)
+            </li>
+            <li>
+              <strong>How I work.</strong>
+              Multi-tenant systems, AI-assisted workflows, unit and end-to-end
+              tests, close collaboration with product
+            </li>
+          </ul>
         </div>
       </section>
-
-      <hr class="rounded" />
 
       <section
         class="experience info_box"
@@ -145,100 +139,87 @@
         </div>
         <div class="info_box_description">
           <article class="engagement">
-            <h3>
-              Industrial simulation training platform
-            </h3>
+            <h3>Eddo Learning</h3>
             <p class="role-line">
-              Full-stack engineer · Independent / partner · 2024–present
+              Full-stack engineer · Remote · Aug 2025–present
             </p>
             <p class="product-blurb">
-              Simulation training platform that trains field engineers on
-              safety protocols across multiple adverse scenarios.
+              Multi-tenant workspace where K-12 teachers run assessments and
+              districts manage curriculum, with AI-generated feedback and
+              student data kept inside the tenant.
             </p>
             <ul>
               <li>
-                Designed an API-first modular architecture to ingest scenario
-                data and formats from an external system, enabling integration
-                and later expansion of scenario variations.
+                Built backoffice browse and editing for assessments, templates,
+                tenants, and users, with search and filters tied to the real
+                fields instead of a generic table.
               </li>
               <li>
-                Built modular simulation components that render experiences
-                from scenario JSON, supporting varying combinations of the
-                simulation UX.
+                Shipped the teacher path around Google Forms: question display,
+                hidden name prompts, answer refresh in one transaction, and AI
+                feedback regenerated when a submission has none.
               </li>
               <li>
-                Collaborated closely with product partners to ship practical,
-                user-centered simulation flows rather than one-off demos.
+                Worked through curriculum ingestion for OpenSciEd, the Prisma
+                models behind assessments, and the unit and Playwright tests
+                that cover those flows.
               </li>
             </ul>
             <p class="tech-line">
-              <strong>Tech:</strong> TypeScript/JavaScript, React, Node/API,
-              scenario JSON-driven UI
+              <strong>Tech:</strong> Next.js, TypeScript, React, Prisma,
+              PostgreSQL, Google Forms/Drive, Playwright
             </p>
           </article>
 
           <article class="engagement">
-            <h3>K-12 AI assessment support platform</h3>
+            <h3>Limpei</h3>
             <p class="role-line">
-              Full-stack engineer · with Ray as Product Manager · 2023–2024
+              Full-stack engineer · Aug 2026–present
             </p>
             <p class="product-blurb">
-              Platform that helps teachers through assessment cycles with
-              AI-assisted generated insights.
+              Storefront and back office for a cleaning-products shop: catalog,
+              point of sale, inventory, purchasing, finance, field service, and
+              electronic invoices.
             </p>
             <ul>
               <li>
-                Delivered the MVP of the core assessment-support product in two
-                weeks while working closely with the product manager.
+                Built the system from the first commit: public catalog, admin
+                auth, and the day-to-day screens for products, customers,
+                sales, and payables.
               </li>
               <li>
-                Built full-stack flows that support teachers through assessment
-                cycles with generated insights they can act on.
+                Shaped service attendance around the counter: entry and exit
+                dates, refusing a pickup with a reason, closing payments, and
+                printable orders.
               </li>
               <li>
-                Applied user empathy to ship thoughtful UX details that
-                improved day-to-day teaching workflows beyond the initial
-                brief.
+                Integrated Focus NFe so a sale can issue an NFC-e and receive
+                the provider webhook, and led product entry with barcode and
+                NCM suggestions.
               </li>
             </ul>
             <p class="tech-line">
-              <strong>Tech:</strong> Full-stack web + AI-assisted assessment
-              workflows
+              <strong>Tech:</strong> Next.js, TypeScript, Prisma, PostgreSQL,
+              Auth.js, Vitest, Focus NFe
             </p>
           </article>
 
           <article class="engagement">
-            <h3>AI-agent product studio (Flxcloud)</h3>
-            <p class="role-line">Founder / engineer · 2025–2026</p>
-            <p class="product-blurb">
-              Building and operating AI-assisted product workflows and internal
-              tooling that help small teams ship software with clear quality
-              gates.
-            </p>
+            <h3>Earlier</h3>
+            <p class="role-line">2022–2023</p>
             <ul>
               <li>
-                Designed and run agent-assisted development workflows that turn
-                product requests into reviewed, shippable changes.
+                Communications coordinator at AD Media Group (2022).
               </li>
               <li>
-                Built orchestration around coding agents, task boards, and
-                review loops so humans stay in control of approvals and
-                releases.
-              </li>
-              <li>
-                Shipped recruiter- and operator-facing tooling without exposing
-                private infrastructure or internal ops details.
+                Public sites and a small hardware prototype, still on GitHub:
+                studio and company websites, a production-fee calculator, and
+                an Arduino touchless tap.
               </li>
             </ul>
-            <p class="tech-line">
-              <strong>Tech:</strong> Python, TypeScript, agent orchestration,
-              APIs
-            </p>
           </article>
         </div>
       </section>
-
-      <hr class="rounded" />
 
       <section
         class="recommendation info_box"
@@ -265,45 +246,31 @@
             </p>
           </blockquote>
           <p class="attribution">
-            — Ray · Product Manager, Eddo Learning · now CEO of the Eddo
-            Learning spinoff
+            Ray · Product Manager, Eddo Learning
           </p>
         </div>
       </section>
 
-      <hr class="rounded" />
-
-      <section
-        class="education info_box"
-        aria-labelledby="education-heading"
-      >
+      <section class="education info_box" aria-labelledby="education-heading">
         <div class="info_box_title">
           <h2 id="education-heading">Education &amp; languages</h2>
         </div>
         <div class="info_box_description">
-          <ul class="cert-list">
-            {% for cert in certificates %}
-            <li>
-              <a
-                href="{{ cert.link_certificado }}"
-                rel="noopener noreferrer"
-                target="_blank"
-                >{{ cert.nome_curso }} — {{ cert.instituicao }}</a
-              >
-            </li>
-            {% endfor %}
-          </ul>
           <ul class="languages">
             <li>Portuguese (Brazil) — fluent</li>
             <li>English — fluent</li>
           </ul>
+          <p>
+            Self-directed. Further coursework on Alura in web, Python, and
+            React Native. The work above is the record I want read first.
+          </p>
         </div>
       </section>
 
       <footer class="footer">
         <div class="footer_box">
-          <span class="contact_info_text">Carlos Felix</span>
-          <span class="contact_info_text">curriculum vitae</span>
+          <span class="contact_info_text">Carlos Félix</span>
+          <span class="contact_info_text">Curriculum vitae</span>
           <span class="contact_info_text">2026</span>
         </div>
       </footer>
